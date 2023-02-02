@@ -1,0 +1,52 @@
+baseurl = "https://ktsamis.github.io"
+title = "ktsamis"
+languageCode = "en-us"
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/about.md"
+    weight = 3
+
+[params]
+  author = "Kostas Tsamis"
+  description = "Hello, I am Kostas, this is my new blog"
+  avatar = "https://i.imgur.com/gnHFeTo.jpg"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/ktsamis"
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/kostastsamis/"
+
+[author]
+    name = "Kostas Tsamis"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/blog/:year/:month/:day/:title/"
+
+  # Default theme
+[params.style]
+    darkestColor = "#242930"    # left bar
+    darkColor = "#353353"       # right background
+    lightColor = "#e2dada"      # normal text
+    lightestColor = "#fdba31"   # headings
+    primaryColor = "#f72585"    # links fdba31
+    codeColor = "#35d475"
+    avatarColor = "#242930"
+    titleColor = "#efcb68"
+    headerColor = "#fdba31"
+    h1Color = "#e2dada"
