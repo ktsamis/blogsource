@@ -19,7 +19,8 @@ paginate = 8
 [params]
   author = "Kostas Tsamis"
   description = "Hello, I am Kostas, this is my new blog"
-  avatar = "https://i.imgur.com/gnHFeTo.jpg"
+  avatar = "https://i.imgur.com/Dgyxfov.jpg"
+  favicon = "https://i.imgur.com/FmC27hx.jpg"
   menu_item_separator = " - "
   [[params.social]]
     icon = "github"
